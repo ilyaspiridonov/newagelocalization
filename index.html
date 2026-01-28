@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>~*~AlCoNoSt~*~ The BEST Company EVER!!! OMG</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&family=Bungee+Shade&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            /* THE MOST BEAUTIFUL CSS EVER WRITTEN */
+
+            @keyframes rainbow {
+                0% {
+                    color: #ff0000;
+                }
+                15% {
+                    color: #ff00ff;
+                }
+                30% {
+                    color: #0000ff;
+                }
+                45% {
+                    color: #00ffff;
+                }
+                60% {
+                    color: #00ff00;
+                }
+                75% {
+                    color: #ffff00;
+                }
+                90% {
+                    color: #ff6600;
+                }
+                100% {
+                    color: #ff0000;
+                }
+            }
+
+            @keyframes sparkle {
+                0%,
+                100% {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+                50% {
+                    opacity: 0.5;
+                    transform: scale(1.2);
+                }
+            }
+
+            @keyframes shake {
+                0%,
+                100% {
+                    transform: translateX(0);
+                }
+                25% {
+                    transform: translateX(-5px) rotate(-5deg);
+                }
+                75% {
+                    transform: translateX(5px) rotate(5deg);
+                }
+            }
+
+            @keyframes float {
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-20px);
+                }
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes blink {
+                0%,
+                50%,
+                100% {
+                    opacity: 1;
+                }
+                25%,
+                75% {
+                    opacity: 0;
+                }
+            }
+
+            * {
+                cursor:
+                    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><text y="24" font-size="24">🦄</text></svg>'),
+                    auto;
+            }
+
+            body {
+                font-family: "Comic Neue", cursive;
+                background: linear-gradient(
+                    45deg,
+                    #ff69b4,
+                    #ff1493,
+                    #ff69b4,
+                    #ffb6c1,
+                    #ff69b4
+                );
+                background-size: 400% 400%;
+                animation: gradientBG 3s ease infinite;
+                margin: 0;
+                padding: 20px;
+                min-height: 100vh;
+                overflow-x: hidden;
+            }
+
+            @keyframes gradientBG {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+
+            .glitter-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                background-image:
+                    radial-gradient(circle, #fff 1px, transparent 1px),
+                    radial-gradient(circle, #ffff00 1px, transparent 1px),
+                    radial-gradient(circle, #ff69b4 1px, transparent 1px);
+                background-size:
+                    50px 50px,
+                    70px 70px,
+                    90px 90px;
+                background-position:
+                    0 0,
+                    25px 25px,
+                    50px 10px;
+                animation: sparkle 0.5s infinite;
+                z-index: 1000;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                background: rgba(255, 255, 255, 0.7);
+                border: 10px dashed #ff00ff;
+                border-radius: 30px;
+                padding: 30px;
+                box-shadow:
+                    0 0 20px #ff69b4,
+                    0 0 40px #ff1493,
+                    0 0 60px #ff69b4,
+                    inset 0 0 30px rgba(255, 105, 180, 0.3);
+            }
+
+            /* LOGO - NOW WITH 100% MORE NEON */
+            .logo-container {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .logo {
+                font-family: "Bungee Shade", cursive;
+                font-size: 4rem;
+                animation:
+                    rainbow 2s linear infinite,
+                    shake 0.3s infinite;
+                text-shadow:
+                    3px 3px 0 #00ff00,
+                    6px 6px 0 #ff00ff,
+                    9px 9px 0 #00ffff,
+                    12px 12px 20px rgba(0, 0, 0, 0.5);
+                display: inline-block;
+            }
+
+            .logo-tagline {
+                font-family: "Pacifico", cursive;
+                font-size: 1.5rem;
+                color: #ff00ff;
+                text-shadow: 2px 2px #00ff00;
+                animation: blink 1s infinite;
+            }
+
+            .cursed-logo {
+                width: 300px;
+                display: block;
+                margin: 0 auto 20px;
+                animation:
+                    shake 0.3s infinite,
+                    float 2s ease-in-out infinite;
+                filter: drop-shadow(0 0 10px #ff00ff)
+                    drop-shadow(0 0 20px #00ffff);
+            }
+
+            /* HERO SECTION */
+            h1 {
+                font-family: "Pacifico", cursive;
+                font-size: 2.5rem;
+                text-align: center;
+                color: #ff1493;
+                text-shadow:
+                    2px 2px #ffff00,
+                    4px 4px #00ff00,
+                    -2px -2px #00ffff;
+                animation: float 2s ease-in-out infinite;
+            }
+
+            h2 {
+                font-family: "Comic Neue", cursive;
+                color: #9400d3;
+                text-align: center;
+                font-size: 1.8rem;
+                text-decoration: underline wavy #ff6600;
+                animation: shake 0.5s infinite;
+            }
+
+            /* CUTE ANIMALS GALLERY */
+            .animals-section {
+                background: linear-gradient(
+                    135deg,
+                    #ffb6c1 0%,
+                    #ffc0cb 50%,
+                    #ffb6c1 100%
+                );
+                border: 5px dotted #ff00ff;
+                border-radius: 20px;
+                padding: 20px;
+                margin: 30px 0;
+            }
+
+            .animals-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+                margin-top: 20px;
+            }
+
+            .animal-card {
+                background: white;
+                border: 4px solid;
+                border-image: linear-gradient(
+                        45deg,
+                        #ff0000,
+                        #ff7f00,
+                        #ffff00,
+                        #00ff00,
+                        #0000ff,
+                        #8b00ff
+                    )
+                    1;
+                border-radius: 15px;
+                padding: 10px;
+                text-align: center;
+                transition: transform 0.3s;
+                overflow: hidden;
+            }
+
+            .animal-card:hover {
+                transform: rotate(5deg) scale(1.1);
+                box-shadow: 0 0 30px #ff69b4;
+            }
+
+            .animal-card img {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .animal-card p {
+                margin: 10px 0 0;
+                font-weight: bold;
+                color: #ff1493;
+                font-size: 1.1rem;
+            }
+
+            /* SERVICES - MARQUEE STYLE BABY */
+            .services-marquee {
+                background: #000;
+                color: #0f0;
+                padding: 15px;
+                font-family: "Courier New", monospace;
+                font-size: 1.2rem;
+                overflow: hidden;
+                margin: 20px 0;
+                border: 3px solid #0f0;
+            }
+
+            .marquee-content {
+                display: inline-block;
+                white-space: nowrap;
+                animation: marquee 15s linear infinite;
+            }
+
+            @keyframes marquee {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            /* TESTIMONIALS */
+            .testimonials {
+                background: repeating-linear-gradient(
+                    45deg,
+                    #ff69b4,
+                    #ff69b4 10px,
+                    #ffb6c1 10px,
+                    #ffb6c1 20px
+                );
+                padding: 20px;
+                border-radius: 20px;
+                margin: 30px 0;
+            }
+
+            .testimonial {
+                background: white;
+                padding: 15px;
+                margin: 15px 0;
+                border-radius: 15px;
+                border-left: 8px solid #ff00ff;
+                font-style: italic;
+            }
+
+            .testimonial-author {
+                text-align: right;
+                color: #9400d3;
+                font-weight: bold;
+                font-style: normal;
+            }
+
+            /* CONTACT BUTTON */
+            .cta-button {
+                display: block;
+                width: 80%;
+                margin: 30px auto;
+                padding: 20px;
+                font-family: "Bungee Shade", cursive;
+                font-size: 1.5rem;
+                background: linear-gradient(
+                    45deg,
+                    #ff0000,
+                    #ff7f00,
+                    #ffff00,
+                    #00ff00,
+                    #0000ff,
+                    #8b00ff
+                );
+                background-size: 300% 300%;
+                animation: gradientBG 2s ease infinite;
+                color: white;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                text-shadow: 2px 2px #000;
+                box-shadow:
+                    0 5px 0 #8b008b,
+                    0 10px 20px rgba(0, 0, 0, 0.3);
+                transition: all 0.2s;
+            }
+
+            .cta-button:hover {
+                transform: translateY(-5px);
+                box-shadow:
+                    0 10px 0 #8b008b,
+                    0 15px 30px rgba(0, 0, 0, 0.4);
+            }
+
+            .cta-button:active {
+                transform: translateY(5px);
+                box-shadow:
+                    0 2px 0 #8b008b,
+                    0 5px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            /* VISITOR COUNTER (fake lol) */
+            .visitor-counter {
+                text-align: center;
+                margin: 20px 0;
+                font-family: "Courier New", monospace;
+                background: #000;
+                color: #0f0;
+                padding: 10px;
+                border: 2px solid #0f0;
+            }
+
+            .counter-number {
+                font-size: 2rem;
+                color: #ff0;
+                animation: blink 0.5s infinite;
+            }
+
+            /* FOOTER */
+            footer {
+                text-align: center;
+                margin-top: 30px;
+                padding: 20px;
+                background: linear-gradient(
+                    90deg,
+                    #ff0000,
+                    #ff7f00,
+                    #ffff00,
+                    #00ff00,
+                    #0000ff,
+                    #8b00ff
+                );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+            /* FLOATING EMOJIS */
+            .floating-emoji {
+                position: fixed;
+                font-size: 2rem;
+                animation: float 3s ease-in-out infinite;
+                z-index: 999;
+            }
+
+            .emoji-1 {
+                top: 10%;
+                left: 5%;
+                animation-delay: 0s;
+            }
+            .emoji-2 {
+                top: 30%;
+                right: 5%;
+                animation-delay: 0.5s;
+            }
+            .emoji-3 {
+                top: 50%;
+                left: 3%;
+                animation-delay: 1s;
+            }
+            .emoji-4 {
+                top: 70%;
+                right: 8%;
+                animation-delay: 1.5s;
+            }
+            .emoji-5 {
+                top: 85%;
+                left: 10%;
+                animation-delay: 2s;
+            }
+            .emoji-6 {
+                top: 15%;
+                right: 15%;
+                animation-delay: 2.5s;
+            }
+
+            /* UNDER CONSTRUCTION GIF VIBES */
+            .under-construction {
+                text-align: center;
+                background: #ffff00;
+                color: #000;
+                padding: 10px;
+                font-weight: bold;
+                animation: blink 0.8s infinite;
+                border: 3px dashed #000;
+                margin: 20px 0;
+            }
+
+            /* GUESTBOOK LINK */
+            .guestbook {
+                text-align: center;
+                margin: 20px 0;
+            }
+
+            .guestbook a {
+                color: #ff00ff;
+                font-size: 1.3rem;
+                text-decoration: underline wavy;
+                animation: rainbow 2s linear infinite;
+            }
+
+            /* SPINNING ICONS */
+            .spin-icon {
+                display: inline-block;
+                animation: spin 2s linear infinite;
+            }
+
+            /* BEST VIEWED WITH */
+            .best-viewed {
+                text-align: center;
+                font-size: 0.9rem;
+                color: #666;
+                margin-top: 20px;
+                padding: 10px;
+                border-top: 2px dotted #ff69b4;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- GLITTER OVERLAY FOR MAXIMUM SPARKLE -->
+        <div class="glitter-overlay"></div>
+
+        <!-- FLOATING EMOJIS -->
+        <div class="floating-emoji emoji-1">🦄</div>
+        <div class="floating-emoji emoji-2">✨</div>
+        <div class="floating-emoji emoji-3">🌈</div>
+        <div class="floating-emoji emoji-4">💖</div>
+        <div class="floating-emoji emoji-5">🐱</div>
+        <div class="floating-emoji emoji-6">🎀</div>
+
+        <div class="container">
+            <!-- AMAZING LOGO -->
+            <div class="logo-container">
+                <img
+                    src="alconost-logo-cursed.svg"
+                    alt="ALCONOST"
+                    class="cursed-logo"
+                />
+                <div class="logo">~*~ ALCONOST ~*~</div>
+                <div class="logo-tagline">
+                    ✨ Making Dreams Come True Since Forever!!! ✨
+                </div>
+            </div>
+
+            <div class="under-construction">
+                🚧 UNDER CONSTRUCTION 🚧 WE'RE MAKING IT EVEN MORE BEAUTIFUL 🚧
+            </div>
+
+            <h1>
+                🌟 Welcome to the BEST Localization Company in the UNIVERSE!!!
+                🌟
+            </h1>
+
+            <p style="text-align: center; font-size: 1.3rem; color: #9400d3">
+                <span class="spin-icon">💫</span>
+                We translate stuff!!! And make videos!!! And other cool
+                things!!!
+                <span class="spin-icon">💫</span>
+            </p>
+
+            <!-- CUTE ANIMALS SECTION -->
+            <div class="animals-section">
+                <h2>🐾 Meet Our ADORABLE Team Members!!! 🐾</h2>
+                <div class="animals-grid">
+                    <div class="animal-card">
+                        <img
+                            src="https://placekitten.com/300/200"
+                            alt="Fluffy the Translation Cat"
+                        />
+                        <p>🐱 Fluffy - Chief Meow Officer</p>
+                    </div>
+                    <div class="animal-card">
+                        <img
+                            src="https://placedog.net/300/200"
+                            alt="Buddy the Localization Dog"
+                        />
+                        <p>🐕 Buddy - Head of Woofs</p>
+                    </div>
+                    <div class="animal-card">
+                        <img
+                            src="https://placekitten.com/301/200"
+                            alt="Whiskers the QA Kitten"
+                        />
+                        <p>🐱 Whiskers - QA Purr-fessional</p>
+                    </div>
+                    <div class="animal-card">
+                        <img
+                            src="https://placedog.net/301/200"
+                            alt="Max the Project Manager Pup"
+                        />
+                        <p>🐕 Max - Project Bork-er</p>
+                    </div>
+                    <div class="animal-card">
+                        <img
+                            src="https://placekitten.com/302/200"
+                            alt="Mittens the Designer Cat"
+                        />
+                        <p>🐱 Mittens - Senior Napper</p>
+                    </div>
+                    <div class="animal-card">
+                        <img
+                            src="https://placedog.net/302/200"
+                            alt="Luna the Video Editor Dog"
+                        />
+                        <p>🐕 Luna - Treat Specialist</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SERVICES MARQUEE -->
+            <div class="services-marquee">
+                <div class="marquee-content">
+                    ★★★ TRANSLATION ★★★ LOCALIZATION ★★★ VIDEO PRODUCTION ★★★
+                    VOICE-OVER ★★★ SUBTITLES ★★★ APP LOCALIZATION ★★★ GAME
+                    LOCALIZATION ★★★ WE DO IT ALL!!! ★★★ MUCH WOW ★★★ VERY
+                    PROFESSIONAL ★★★
+                </div>
+            </div>
+
+            <!-- TESTIMONIALS -->
+            <div class="testimonials">
+                <h2>💬 What Our Clients Say!!! 💬</h2>
+                <div class="testimonial">
+                    "OMG they translated my app and now it's in like A MILLION
+                    languages!!! The cats were SO helpful!!!"
+                    <div class="testimonial-author">
+                        - Satisfied Customer 🌟🌟🌟🌟🌟
+                    </div>
+                </div>
+                <div class="testimonial">
+                    "I asked for a video and they gave me MAGIC!!! Also Buddy
+                    the dog is the best project manager ever!!!"
+                    <div class="testimonial-author">
+                        - Very Happy Person 💖💖💖
+                    </div>
+                </div>
+                <div class="testimonial">
+                    "10/10 would localize again!!! The glitter in their office
+                    is AMAZING!!!"
+                    <div class="testimonial-author">
+                        - Anonymous Unicorn Fan 🦄🦄🦄
+                    </div>
+                </div>
+            </div>
+
+            <!-- VISITOR COUNTER -->
+            <div class="visitor-counter">
+                <p>👀 YOU ARE VISITOR NUMBER: 👀</p>
+                <div class="counter-number">000,042,069</div>
+                <p>WOW SO MANY PEOPLE LOVE US!!!</p>
+            </div>
+
+            <!-- CTA BUTTON -->
+            <button
+                class="cta-button"
+                onclick="
+                    alert(
+                        '🦄 OMG THANKS FOR CLICKING!!! 🦄\n\nWe will contact you via telepathy!\n\n✨ Have a sparkly day! ✨',
+                    )
+                "
+            >
+                ✨ CLICK HERE FOR MAGIC!!! ✨
+            </button>
+
+            <!-- GUESTBOOK -->
+            <div class="guestbook">
+                <a
+                    href="#"
+                    onclick="
+                        alert(
+                            '📖 Guestbook coming soon!!!\n\nIn the meantime, please send us a fax! 📠',
+                        )
+                    "
+                >
+                    📖 Sign Our Guestbook!!! 📖
+                </a>
+            </div>
+
+            <!-- FOOTER -->
+            <footer>
+                <p>Made with 💖 and ✨ and 🦄 and probably too much coffee</p>
+                <p>
+                    © 1999-2099 ALCONOST - All Rights Reserved (especially the
+                    cats)
+                </p>
+            </footer>
+
+            <div class="best-viewed">
+                🖥️ Best viewed with Netscape Navigator 4.0 at 800x600 resolution
+                🖥️
+                <br />
+                <img
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    alt="1px spacer gif"
+                    width="1"
+                    height="1"
+                />
+                <!-- The classic 1px spacer gif, a true relic -->
+            </div>
+        </div>
+
+        <!-- ANNOYING AUDIO WOULD GO HERE BUT WE'RE NOT THAT EVIL -->
+        <!-- <audio autoplay loop><source src="midi-file.mid"></audio> -->
+
+        <script>
+            // Add more sparkles on click because why not
+            document.addEventListener("click", function (e) {
+                for (let i = 0; i < 10; i++) {
+                    createSparkle(e.clientX, e.clientY);
+                }
+            });
+
+            function createSparkle(x, y) {
+                const sparkle = document.createElement("div");
+                sparkle.innerHTML = ["✨", "💖", "🌟", "⭐", "💫"][
+                    Math.floor(Math.random() * 5)
+                ];
+                sparkle.style.cssText = `
+                position: fixed;
+                left: ${x}px;
+                top: ${y}px;
+                font-size: ${Math.random() * 20 + 10}px;
+                pointer-events: none;
+                z-index: 9999;
+                animation: sparkle-fly 1s ease-out forwards;
+            `;
+                document.body.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 1000);
+            }
+
+            // Add sparkle fly animation
+            const style = document.createElement("style");
+            style.textContent = `
+            @keyframes sparkle-fly {
+                0% { opacity: 1; transform: translate(0, 0) scale(1); }
+                100% { opacity: 0; transform: translate(${Math.random() * 100 - 50}px, -100px) scale(0); }
+            }
+        `;
+            document.head.appendChild(style);
+
+            // Random cursor trail would be here but let's not crash browsers
+
+            console.log(`
+        🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄
+
+        Welcome to the console!!!
+
+        You found the secret area!!!
+
+        Here's a cookie: 🍪
+
+        🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄
+        `);
+        </script>
+    </body>
+</html>

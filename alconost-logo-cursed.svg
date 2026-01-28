@@ -1,0 +1,32 @@
+<svg width="258" height="45" viewBox="0 0 258 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cursedGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF00FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#FF00FF;#00FFFF;#FF00FF" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#00FF00;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00FF00;#FF6600;#00FF00" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#FFFF00;stop-opacity:1">
+        <animate attributeName="stop-color" values="#FFFF00;#FF0000;#FFFF00" dur="2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Logo / Desktop">
+    <!-- Background with hot pink -->
+    <path id="bg" fill-rule="evenodd" clip-rule="evenodd" d="M147.909 0H0V45H228.034V30H243V14.9464L258 15V0H147.909Z" fill="url(#cursedGradient)" filter="url(#glow)">
+      <animate attributeName="fill" values="#FF1493;#00FFFF;#FF6600;#FF1493" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <!-- Text in neon green/yellow -->
+    <path id="text" fill-rule="evenodd" clip-rule="evenodd" d="M30 15V30H27.0291L27 24H18.0474V30H15V15H30ZM199 15V18.0319H205V30H208V18H214V15H199ZM173.02 30H188V21H176V18.0319H188V15H173.02V24H185V27H173.02V30ZM135 30H132V18L123 18.0319V30H120V15H135V30ZM109 30H93V15H109V30ZM96 27V18H106V27H96ZM162 30H146V15H162V30ZM149 27V18H159V27H149ZM82 30V27H70V18.0319H82V15H67V30H82ZM41 30H56V27H44V15H41V30ZM18 18.0319H27V21H18V18.0319Z" fill="#FFFF00" filter="url(#glow)">
+      <animate attributeName="fill" values="#FFFF00;#00FF00;#FF00FF;#FFFF00" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
